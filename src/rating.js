@@ -16,7 +16,7 @@ const BELL_IMAGE = require('./images/bell.png');
 const TYPES = {
   star: {
     source: STAR_IMAGE,
-    color: '#f1c40f',
+    color: '#F7B432',
     backgroundColor: 'white',
   },
   heart: {
@@ -39,8 +39,8 @@ const TYPES = {
 export default class Rating extends Component {
   static defaultProps = {
     type: 'star',
-    ratingImage: require('./images/star.png'),
-    ratingColor: '#f1c40f',
+    ratingImage: STAR_IMAGE,
+    ratingColor: '#F7B432',
     ratingBackgroundColor: 'white',
     ratingCount: 5,
     imageSize: 60,
